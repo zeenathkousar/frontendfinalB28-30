@@ -3,7 +3,7 @@ export const  StoreContext=createContext(null);
 import axios  from 'axios';
 
 const StoreContextProvider = (props) => {
-    const url="https://backendfinalb2830.onrender.com/";
+    const url="https://backendfinalb2830.onrender.com";
     const [token,setToken]=useState("")
 
     const loadCartData=async (token)=>{
